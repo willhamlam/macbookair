@@ -1,0 +1,411 @@
+.macbook
+	margin 250px auto
+	width 200px
+	height 140px
+	// background #ccc
+	display block
+	-webkit-perspective  800px
+	-moz-perspective  800px
+	-ms-perspective  800px
+	perspective  800px
+
+.macbook-air
+	width 200px
+	height 140px
+	-webkit-transform-style preserve-3d
+	-moz-transform-style preserve-3d
+	-ms-transform-style preserve-3d
+	transform-style preserve-3d
+	-webkit-transition 2s all ease-in
+	-moz-transition 2s all ease-out
+	-ms-transition 2s all ease-out
+	-o-transition 2s all ease-out
+	transition 2s all ease-out
+	animation rotate infinite 20s ease
+	-webkit-animation rotate infinite 20s ease
+	-webkit-transform-origin 100px 70px 70px
+	-moz-transform-origin 100px 70px 70px
+	-ms-transform-origin 100px 70px 70px
+	-o-transform-origin 100px 70px 70px
+	transform-origin 100px 70px 70px
+	&:hover
+		-webkit-transform rotateY(360deg)
+		-moz-transform rotateY(360deg)
+		-ms-transform rotateY(360deg)
+		-o-transform rotateY(360deg)
+		transform rotateY(360deg)
+	
+		
+.up,
+.down
+	-webkit-transition 2s all ease-out
+	-moz-transition 2s all ease-out
+	-ms-transition 2s all ease-out
+	-o-transition 2s all ease-out
+	transition 2s all ease-out
+
+.screen
+	background #c2c1c6
+	width 200px
+	height 140px
+	-webkit-border-radius 6px
+	-moz-border-radius 6px
+	border-radius 6px
+	border 1px solid #B9B9B9
+	background-color #c2c1c5
+	position relative
+	background -webkit-linear-gradient(top, #D3D3D3, #E9E9E9)
+	background -moz-linear-gradient(top, #D3D3D3, #E9E9E9)
+	background -ms-linear-gradient(top, #D3D3D3, #E9E9E9)
+	background -o-linear-gradient(top, #D3D3D3, #E9E9E9)
+	-webkit-transform-origin bottom left
+	-moz-transform-origin bottom left
+	-ms-transform-origin bottom left
+	-o-transform-origin bottom left
+	transform-origin bottom left
+	// &:hover
+	// 	-webkit-transform rotateY(180deg)
+	// 	-moz-transform rotateY(180deg)
+	// 	-ms-transform rotateY(180deg)
+	// 	-o-transform rotateY(180deg)
+	// 	transform rotateY(180deg)
+	img
+		width 180px
+		margin 12px auto
+		display block
+		border 1px solid #636363
+	h1
+		position absolute
+		bottom 1px
+		font-size 0.09em
+		text-align center
+		width 100%
+		color #979797
+	.webcam
+		width 100%
+		position absolute
+		top 4px
+		span
+			width 5px
+			height 5px
+			background #5A5A5A
+			display block
+			-webkit-border-radius 3px
+			-moz-border-radius 3px
+			border-radius 3px
+			margin 0 auto
+
+.screen-back
+	width 202px
+	height 142px
+	display block
+	top 0
+	background-color #DBDBDB
+	-webkit-border-radius 6px
+	-moz-border-radius 6px
+	border-radius 6px
+	text-align center
+	position relative
+	-webkit-transform translateY(-142px) translateZ(-2px) rotateY(180deg)
+	-moz-transform translateY(-142px) translateZ(-2px) rotateY(180deg)
+	-ms-transform translateY(-142px) translateZ(-2px) rotateY(180deg)
+	-o-transform translateY(-142px) translateZ(-2px) rotateY(180deg)
+	transform translateY(-142px) translateZ(-2px) rotateY(180deg)
+	background -webkit-linear-gradient(top, #E9E9E9,#D3D3D3)
+	background -moz-linear-gradient(top, #E9E9E9,#D3D3D3)
+	background -ms-linear-gradient(top, #E9E9E9,#D3D3D3)
+	background -o-linear-gradient(top, #E9E9E9,#D3D3D3)
+	border-top 2px solid #F0F0F0
+	img
+		margin 0 auto
+		display block
+		position absolute
+		top 50px
+		left 90px
+
+.keyboard
+	width 200px
+	height 140px
+	background-color #DBDBDB
+	position relative
+	-webkit-border-radius 6px
+	-moz-border-radius 6px
+	border-radius 6px
+	// -webkit-transform translateY(0px) rotateX(60deg)
+	// -moz-transform translateY(0px) rotateX(60deg)
+	// -ms-transform translateY(0px) rotateX(60deg)
+	// -o-transform translateY(0px) rotateX(60deg)
+	// transform translateY(0px) rotateX(60deg)
+	-webkit-transform-origin top left
+	-moz-transform-origin top left
+	-ms-transform-origin top left
+	-o-transform-origin top left
+	transform-origin top left
+	border 1px solid #C2C2C2
+	background -webkit-linear-gradient(top, #D3D3D3, #DBDBDB)
+	background -moz-linear-gradient(top, #D3D3D3, #DBDBDB)
+	background -ms-linear-gradient(top, #D3D3D3, #DBDBDB)
+	background -o-linear-gradient(top, #D3D3D3, #DBDBDB)
+	border-bottom 1px solid #919191
+	.black
+		width 90%
+		background-color #494949
+		margin 0 auto
+		height 5px
+	.keys
+		background #E4E4E4
+		width 88%
+		margin 6px auto
+		height 73px
+		-webkit-border-radius 3px
+		-moz-border-radius 3px
+		border-radius 3px
+		padding 4px
+		.row 
+			width 100%
+			margin-bottom 2px
+			overflow hidden
+			span
+				display block
+				float left
+				background #3F3F3F
+				margin-left 2px
+				-webkit-border-radius 2px
+				-moz-border-radius 2px
+				border-radius 2px
+			.sp1
+				width 9%
+			.sp2
+				width 11.3%
+			.sp3
+				width 15.1%
+			.sp4
+				width 7.5%
+			.sp5
+				width 43%
+		.row1
+			span
+				width 7.1%
+				height 6px 
+		.row2,
+		.row3,
+		.row4,
+		.row5
+			span
+				width 6.25%
+				height 11px
+				height 11px
+		.row6
+			span
+				width 5%
+				height 11px
+	.touchpad
+		width 60px
+		height 36px
+		background #D5D5D5
+		margin 0 auto
+		-webkit-border-radius 2px
+		-moz-border-radius 2px
+		border-radius 2px
+		border 1px solid #ccc
+		background -webkit-linear-gradient(top, #D3D3D3, #DBDBDB)
+		background -moz-linear-gradient(top, #D3D3D3, #DBDBDB)
+		background -ms-linear-gradient(top, #D3D3D3, #DBDBDB)
+		background -o-linear-gradient(top, #D3D3D3, #DBDBDB)
+
+.keyboard-back
+	width 202px
+	height 140px
+	background #ccc
+	-webkit-border-radius 6px
+	-moz-border-radius 6px
+	border-radius 6px
+	border-top 1px solid #000
+	background -webkit-linear-gradient(top, #D3D3D3, #DBDBDB)
+	background -moz-linear-gradient(top, #D3D3D3, #DBDBDB)
+	background -ms-linear-gradient(top, #D3D3D3, #DBDBDB)
+	background -o-linear-gradient(top, #D3D3D3, #DBDBDB)
+	-webkit-transform translateY(-142px) translateZ(-1px)
+	-moz-transform translateY(-142px) translateZ(-1px)
+	-ms-transform translateY(-142px) translateZ(-1px)
+	-o-transform translateY(-142px) translateZ(-1px)
+	transform translateY(-142px) translateZ(-1px)
+	-webkit-transform-origin bottom
+	-moz-transform-origin bottom
+	-ms-transform-origin bottom
+	-o-transform-origin bottom
+	transform-origin bottom
+	position relative
+	.line
+		width 80%
+		margin-left auto
+		margin-right auto
+		overflow hidden
+		&:nth-child(2)
+			padding-top 80px
+		.dot
+			width 10px
+			height 10px
+			-webkit-border-radius 5px
+			-moz-border-radius 5px
+			border-radius 5px
+			display block
+			background-color #525252
+	.keyboard-wrap
+		position absolute
+		width 90px
+		height 60px
+		border 1px solid #C5C5C5
+		top 40px
+		left 55px
+		-webkit-border-radius 5px
+		-moz-border-radius 5px
+		border-radius 5px
+
+.up
+	height 140px
+	-webkit-transform-style preserve-3d
+	-moz-transform-style preserve-3d
+	-ms-transform-style preserve-3d
+	transform-style preserve-3d
+	-webkit-transform rotateX(-100deg)
+	-moz-transform rotateX(-100deg)
+	-ms-transform rotateX(-100deg)
+	-o-transform rotateX(-100deg)
+	transform rotateX(-100deg)
+	-webkit-transform-origin bottom
+	-moz-transform-origin bottom
+	-ms-transform-origin bottom
+	-o-transform-origin bottom
+	transform-origin bottom
+	animation open infinite 20s ease-out
+	-webkit-animation open infinite 20s ease-out
+
+
+.bottom
+	height 140px
+	-webkit-transform rotateX(60deg)
+	-moz-transform rotateX(60deg)
+	-ms-transform rotateX(60deg)
+	-o-transform rotateX(60deg)
+	transform rotateX(60deg)
+	-webkit-transform-style preserve-3d
+	-moz-transform-style preserve-3d
+	-ms-transform-style preserve-3d
+	transform-style preserve-3d
+	-webkit-transform-origin top
+	-moz-transform-origin top
+	-ms-transform-origin top
+	-o-transform-origin top
+	transform-origin top
+	animation down 30s ease-out
+	-webkit-animation down 30s ease-out
+
+@keyframes rotate {
+	0% {
+		-webkit-transform rotateY(0deg)
+		-moz-transform rotateY(0deg)
+		-ms-transform rotateY(0deg)
+		-o-transform rotateY(0deg)
+		transform rotateY(0deg)
+	}
+	20% {
+		-webkit-transform rotateY(0deg)
+		-moz-transform rotateY(0deg)
+		-ms-transform rotateY(0deg)
+		-o-transform rotateY(0deg)
+		transform rotateY(0deg)
+	}
+	50% {
+		-webkit-transform rotateY(360deg)
+		-moz-transform rotateY(360deg)
+		-ms-transform rotateY(360deg)
+		-o-transform rotateY(360deg)
+		transform rotateY(360deg)
+	}
+	79.999% {
+		-webkit-transform rotateY(370deg)
+		-moz-transform rotateY(370deg)
+		-ms-transform rotateY(370deg)
+		-o-transform rotateY(370deg)
+		transform rotateY(370deg)
+	}
+	80% {
+		-webkit-transform rotateY(370deg)
+		-moz-transform rotateY(370deg)
+		-ms-transform rotateY(370deg)
+		-o-transform rotateY(370deg)
+		transform rotateY(370deg)
+	}
+	100% {
+		-webkit-transform rotateY(720deg)
+		-moz-transform rotateY(720deg)
+		-ms-transform rotateY(720deg)
+		-o-transform rotateY(720deg)
+		transform rotateY(720deg)
+	}
+}
+
+@keyframes open {
+	0% {
+		-webkit-transform rotateX(-120deg)
+		-moz-transform rotateX(-120deg)
+		-ms-transform rotateX(-120deg)
+		-o-transform rotateX(-120deg)
+		transform rotateX(-120deg)
+	}
+	20% {
+		-webkit-transform rotateX(-120deg)
+		-moz-transform rotateX(-120deg)
+		-ms-transform rotateX(-120deg)
+		-o-transform rotateX(-120deg)
+		transform rotateX(-120deg)
+	}
+	50% {
+		-webkit-transform rotateX(0deg)
+		-moz-transform rotateX(0deg)
+		-ms-transform rotateX(0deg)
+		-o-transform rotateX(0deg)
+		transform rotateX(0deg)
+	}
+	80% {
+		-webkit-transform rotateX(0deg)
+		-moz-transform rotateX(0deg)
+		-ms-transform rotateX(0deg)
+		-o-transform rotateX(0deg)
+		transform rotateX(0deg)
+	}
+	100% {
+		-webkit-transform rotateX(-120deg)
+		-moz-transform rotateX(-120deg)
+		-ms-transform rotateX(-120deg)
+		-o-transform rotateX(-120deg)
+		transform rotateX(-120deg)
+	}
+}
+
+.title
+	position absolute
+	top -60px
+	margin-left -30px
+	animation opacity infinite 20s ease-out
+	-webkit-animation opacity infinite 20s ease-out
+	// opacity 0
+
+@keyframes opacity {
+	0% {
+		opacity 0
+	}
+	20% {
+		opacity 0
+	}
+	50% {
+		opacity 1
+	}
+	70% {
+		opacity 1
+	}
+	100% {
+		opacity 0
+	}
+}
